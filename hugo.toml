@@ -40,9 +40,6 @@ enableThemeToggle = true
 enableSharingButtons = true
 enableGlobalLanguageMenu = false
 
-customCSS = []
-customJS  = []
-
 justifyContent = true
 
 [params.footer]
@@ -59,7 +56,7 @@ theme = "#1b1c1d"
 
 [params.logo]
 logoMark     = "$"
-logoText     = "go build "
+logoText     = "cd /home/"
 logoHomeLink = "/"
 logoCursorDisabled = false
 # logoCursorColor    = "#67a2c9"
@@ -71,22 +68,22 @@ path     = "images/portrait.png"
 alt      = "Portrait"
 maxWidth = "270px"
 
-[[params.social]]
+[[params.socialIcons]]
 name = "email"
 url  = "mailto:gaze_adagios0b@icloud.com"
 
-[[params.social]]
+[[params.socialIcons]]
 name = "github"
 url  = "https://github.com/mdomke"
 
-[[params.social]]
+[[params.socialIcons]]
 name = "linkedin"
 url  = "https://www.linkedin.com/in/martin-domke/"
 
-[[params.social]]
+[[params.socialIcons]]
 name = "stackoverflow"
 url  = "https://stackoverflow.com/users/3928751/mdomke"
 
-[[params.social]]
+[[params.socialIcons]]
 name = "gpg"
 url  = "/mdomke.asc"
