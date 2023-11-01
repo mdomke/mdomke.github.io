@@ -2,7 +2,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - $default-branch
+      - master
     workflow_dispatch:
 
 permissions:
@@ -10,9 +10,9 @@ permissions:
   pages: write
   id-token: write
 
-# concurrency:
-#   group: pages
-#   cancel-in-progress: false
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 defaults:
   run:
